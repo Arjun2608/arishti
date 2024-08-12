@@ -1,0 +1,9 @@
+8. Write a python program to print date, time for today and now
+import datetime 
+a=datetime.datetime.today() 
+b=datetime.datetime.now() 
+print(a) 
+print(b)
+Output:
+2023-09-09 09:13:26.600974
+2023-09-09 09:13:26.600974
