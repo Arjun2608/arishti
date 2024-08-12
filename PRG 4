@@ -1,0 +1,29 @@
+4. Create a dictionary and apply the following methods
+#Source code: 
+# creating a dictionary 
+college={'name': "CLARET", 'code': "SCC",'pincode': 560013 } 
+print(college) 
+#adding items to dictionary 
+college["location"] = "MES ring road" 
+print(college) 
+#changing values of a key 
+college["location"] = "Jalahalli Village" 
+print(college) 
+#know the length using len() 
+print("length of college is:",len(college)) 
+#Acess items 
+print("college['name']:",college['name']) 
+# use get () 
+x=college.get('pincode') 
+print(x) 
+#to copy the same dictionary use copy() 
+mycollege= college.copy() 
+print(mycollege)
+Output:
+{'name': 'CLARET', 'code': 'SCC', 'pincode': 560013}
+{'name': 'CLARET', 'code': 'SCC', 'pincode': 560013, 'location': 'MES ring road'}
+{'name': 'CLARET', 'code': 'SCC', 'pincode': 560013, 'location': 'Jalahalli Village'}
+length of college is: 4
+college['name']: CLARET
+560013
+{'name': 'CLARET', 'code': 'SCC', 'pincode': 560013, 'location': 'Jalahalli Village'}
