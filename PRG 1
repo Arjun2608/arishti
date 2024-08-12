@@ -1,0 +1,17 @@
+1. Write a program to demonstrate basic data type in python.
+a=10 
+b="Python" 
+c = 10.5 
+d=2.14j 
+e=True 
+print("Data type of Variable a :",type(a)) 
+print("Data type of Variable b :",type(b)) 
+print("Data type of Variable c :",type(c)) 
+print("Data type of Variable d :",type(d)) 
+print("Data type of Variable e :",type(e))
+Output:
+Data type of Variable a : <class 'int'>
+Data type of Variable b : <class 'str'>
+Data type of Variable c : <class 'float'>
+Data type of Variable d : <class 'complex'>
+Data type of Variable e : <class 'bool'>
