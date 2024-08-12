@@ -1,0 +1,32 @@
+11. Write a program to count frequency of characters in a given file
+def char_frequency(str1):
+ dict={}
+ for n in str1:
+ keys=dict.keys()
+ if n in keys:
+ dict[n]+=1
+ else:
+ dict[n]=1
+ return dict
+str=input("Enter file name to read from :")
+getfile= open(str).read()
+D=char_frequency(getfile)
+print("the frequency of each character in the file")
+for k,v in D.items():
+ print(k,v)
+Note:create text document in the same folder where your lab program is saved
+Output:
+Enter file name to read from :hello.txt
+the frequency of each character in the file
+S 1
+T 2
+ 3
+C 2
+L 4
+A 3
+R 2
+E 4
+O 2
+G 2
+B 1
+N 1
