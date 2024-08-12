@@ -1,0 +1,90 @@
+5. Write a program to create a menu with the following options
+ 1. TO PERFORM ADDITION 2. TO PERFORM SUBTRACTION
+3. TO PERFORM MULTIPLICATION 4. TO PERFORM DIVISION 
+def add(n1,n2): 
+ return n1+n2 
+def sub(n1,n2): 
+ return n1-n2 
+def mul(n1,n2): 
+ return n1*n2 
+def div(n1,n2): 
+ return n1/n2 
+print("Welcome to the Arithmetic Program") 
+choice =1 
+while(choice!=0): 
+ x = int(input(" Enter the first number\n")) 
+ y = int(input(" Enter the second number\n")) 
+ print("1. TO PERFORM ADDITION") 
+ print("2. TO PERFORM SUBTRACTION") 
+ print("3. TO PERFORM MULTIPLICATION") 
+ print("4. TO PERFORM DIVISION") 
+ print("0. To Exit") 
+ choice = int(input("Enter your choice")) 
+ if choice == 1:
+ print(x, "+" ,y ,"=" ,add(x,y)) 
+ elif choice == 2: 
+ print(x, "-" ,y ,"=" ,sub(x,y)) 
+ elif choice == 3: 
+ print(x, "*" ,y ,"=" ,mul(x,y)) 
+ elif choice == 4: 
+ print(x, "%" ,y ,"=" ,div(x,y)) 
+ elif choice ==0: 
+ print("Exit") 
+ else: print("Invalid Choice");
+Output:
+Welcome to the Arithmetic Program
+Enter the first number
+5
+Enter the second number
+8
+1. TO PERFORM ADDITION
+2. TO PERFORM SUBTRACTION
+3. TO PERFORM MULTIPLICATION
+4. TO PERFORM DIVISION
+0. To Exit
+Enter your choice1
+5 + 8 = 13
+Enter the first number
+5
+Enter the second number
+5
+1. TO PERFORM ADDITION
+2. TO PERFORM SUBTRACTION
+3. TO PERFORM MULTIPLICATION
+4. TO PERFORM DIVISION
+0. To Exit
+Enter your choice2
+5 - 5 = 0
+Enter the first number
+2
+Enter the second number
+2
+1. TO PERFORM ADDITION
+2. TO PERFORM SUBTRACTION
+3. TO PERFORM MULTIPLICATION
+4. TO PERFORM DIVISION
+0. To Exit
+Enter your choice3
+2 * 2 = 4
+Enter the first number
+6
+Enter the second number
+2
+1. TO PERFORM ADDITION
+2. TO PERFORM SUBTRACTION
+3. TO PERFORM MULTIPLICATION
+4. TO PERFORM DIVISION
+0. To Exit
+Enter your choice4
+6 % 2 = 3.0
+Enter the first number
+4
+Enter the second number
+5
+1. TO PERFORM ADDITION
+2. TO PERFORM SUBTRACTION
+3. TO PERFORM MULTIPLICATION
+4. TO PERFORM DIVISION
+0. To Exit
+Enter your choice0
+Exit
