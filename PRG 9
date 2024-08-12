@@ -1,0 +1,19 @@
+9. Write a python program to add some days to your present date and print 
+the date added.
+from datetime import timedelta 
+from datetime import date 
+# taking input as the current date 
+# today() method is supported by date 
+# class in datetime module 
+Begindatestring = date.today() 
+# print begin date print("Beginning date") 
+print(Begindatestring) 
+# calculating end date by adding days 
+days= int(input("how many days to add? "))
+Enddate = Begindatestring + timedelta(days) 
+# printing end date print("Ending date") 
+print(Enddate)
+output:
+2023-09-09
+how many days to add? 10
+2023-09-19
