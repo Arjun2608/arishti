@@ -1,0 +1,12 @@
+7. Write a program for filter() to filter only even numbers from a given list
+#syntax:filter(function,sequence)
+L1=[1,6,4,9,7,0,8,3]
+#function f() take a value and returns TRUE if remainder is zero
+def f(X):
+ return X%2==0
+M=list(filter(f,L1))
+print("Original list: ",L1)
+print("Filtered list: ",M)
+Output:
+Original list: [1, 6, 4, 9, 7, 0, 8, 3]
+Filtered list: [6, 4, 0, 8]
